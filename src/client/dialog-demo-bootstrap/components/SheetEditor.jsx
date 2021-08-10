@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { Button, ListGroup } from 'react-bootstrap';
 import FormInput from './FormInput.tsx';
+// import DemoUI from './DemoUI';
 
 // This is a wrapper for google.script.run that lets us use promises.
 import server from '../../utils/server';
@@ -54,6 +55,9 @@ const SheetEditor = () => {
         <span className="text-danger">&times;</span> next to the sheet name to
         delete it.
       </p>
+
+      {/* <DemoUI /> */}
+
       <FormInput submitNewSheet={submitNewSheet} />
       <ListGroup>
         <TransitionGroup className="sheet-list">

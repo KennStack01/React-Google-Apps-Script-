@@ -42,12 +42,12 @@ const devDialogEntry = './dev/index.js';
 
 // define client entry points and output names
 const clientEntrypoints = [
-  {
-    name: 'CLIENT - Dialog Demo',
-    entry: './src/client/dialog-demo/index.js',
-    filename: 'dialog-demo', // we'll add the .html suffix to these
-    template: './src/client/dialog-demo/index.html',
-  },
+  // {
+  //   name: 'CLIENT - Dialog Demo',
+  //   entry: './src/client/dialog-demo/index.js',
+  //   filename: 'dialog-demo', // we'll add the .html suffix to these
+  //   template: './src/client/dialog-demo/index.html',
+  // },
   {
     name: 'CLIENT - Dialog Demo Bootstrap',
     entry: './src/client/dialog-demo-bootstrap/index.js',
@@ -59,6 +59,12 @@ const clientEntrypoints = [
     entry: './src/client/sidebar-about-page/index.js',
     filename: 'sidebar-about-page',
     template: './src/client/sidebar-about-page/index.html',
+  },
+  {
+    name: 'CLIENT - Logic Sheet Page',
+    entry: './src/client/logic-sheet-ui/index.js',
+    filename: 'logic-sheet-ui',
+    template: './src/client/logic-sheet-ui/index.html',
   },
 ];
 

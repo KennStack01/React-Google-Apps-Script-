@@ -1,6 +1,6 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import About from './components/About';
+import Logic from './components/Logic';
 
-ReactDOM.render(<About />, document.getElementById('index'));
+ReactDOM.render(<Logic />, document.getElementById('index'));
