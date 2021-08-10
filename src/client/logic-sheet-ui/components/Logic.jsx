@@ -3,7 +3,7 @@ import React from 'react';
 const Logic = () => (
   <div>
     <p>
-      <b>Welcome to Logic Sheet ⚽</b>
+      <b className="text-blue-600">Welcome to Logic Sheet ⚽</b>
     </p>
     <p>
       This is a very simple page demonstrating how to build a React app inside a
